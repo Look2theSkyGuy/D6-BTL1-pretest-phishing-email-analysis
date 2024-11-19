@@ -1,0 +1,46 @@
+Phishing Email Analysis Write-Up
+Scenario Overview
+XYZ Corporation onboarded two new employees, John Joe and John Smith. As part of a cybersecurity exercise, the internal cyber team attempted to phish employees to assess their awareness of potential email threats. One of the phishing emails was sent to John Smith, and the goal is to analyze the email and identify key details about the phishing attempt.
+
+Instructions
+Analyze the email folder provided (Mail.zip) using:
+A text editor (e.g., Notepad++, VS Code) or
+An email client application (e.g., Thunderbird, eM Client).
+⚠️ Caution: While none of the links in the email folder are malicious at the time of writing, avoid visiting the links unless absolutely necessary.
+
+Analysis Questions
+Who is the sender of the phishing email?
+
+Look for the From field in the email header. Pay attention to the email domain and ensure it matches legitimate senders.
+Who is the recipient?
+
+Check the To field in the email. Ensure it matches John Smith’s email address and not a group or general distribution list.
+What is the domain of the address the email was sent from?
+
+Identify the domain portion of the sender’s email address (everything after the @ symbol). Compare it against known domains for anomalies.
+What day and time was the email sent?
+
+Review the Date field in the email header. Note the exact timestamp and timezone.
+What was the domain name for the link in the phishing email?
+
+Inspect hyperlinks in the email body. Use a text editor or email client to identify the actual link (it may differ from the displayed text).
+What country is that domain based out of?
+
+Use tools like WHOIS Lookup or IP Geolocation to identify the domain's origin.
+Was the linked page more likely a compromised legitimate domain or a completely malicious domain?
+
+Determine if the domain belongs to a known website. If the domain appears legitimate but is being misused, it is likely compromised. Otherwise, it may be a domain created solely for phishing.
+Hints and Tips
+1. Email Header Analysis
+Use an email client or text editor to open the email file.
+Focus on these key fields in the email header:
+From
+To
+Date
+Received
+2. Domain and URL Analysis
+Hover over or inspect the links in the email without clicking them.
+Use safe analysis tools like VirusTotal or URLScan.io to analyze URLs for potential threats.
+3. Identify the Domain Country
+Use a WHOIS lookup to extract the registration details for the domain.
+Check for the country of origin and whether the domain is associated with a known organization.
